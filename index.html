@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .highlight
+    {
+        background-color: yellow;
+    }
+    .underline
+    {
+        text-decoration: underline;
+    }
+    .bold
+    {
+        font-weight: bold;
+    }
+    .hidden
+    {
+        display: none;
+    }
+    .button-style
+    {
+        color: white;
+        background-color: rgb(255, 170, 0);
+    }
+</style>
+</head>
+<body>
+    Available options: bold , undeline , highlight
+    <br><br>
+    <div id = "basic"> Text</div>
+    <textarea id="inputtext" name="inputtxt"  required></textarea><br><br>
+    <button type="button" onclick="func()"> Add class! </button>
+
+    <br><br>
+
+    <p id = "firstp"> First paragraph </p>
+    <p id = "secondp"> Second paragraph </p>
+    <p id = "thirdp"> Third paragraph </p>
+
+    <span> 
+    <button type="button" onclick="toggle_par(1)"> Toggle First Paragraph</button>
+    <button type="button" onclick="toggle_par(2)"> Toggle Second Paragraph</button>
+    <button type="button" onclick="toggle_par(3)"> Toggle Third Paragraph</button> 
+    </span>
+
+    <br><br>
+
+    <button type="button" id = "clickme" onclick="clicker()"> Click Me</button> 
+    <script src="code.js"></script>
+</body>
+</html>
